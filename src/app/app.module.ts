@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+
 import { RegisterComponent } from './auth/register/register.component';
 import { LoginComponent } from './auth/login/login.component';
 
@@ -12,12 +13,14 @@ import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButt
 import { LayoutModule } from '@angular/cdk/layout';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
     UserDashboardComponent,
+
   ],
   imports: [
     BrowserModule,
