@@ -7,11 +7,20 @@ h1 {
 }
 
 .example-card {
-    max-width: 400px;
+    max-width: 800px;
   }
 
 .example-form {
     min-width: 250px;
-    max-width: 500px;
+    max-width: 800px;
     width: 100%;
 }
+
+.mat-radio-button ~ .mat-radio-button {
+    padding-right: 16px;
+  }
+
+  div {
+    background-image: url('https://wallportal.com/uploads/posts/arizona-state-university-wallpaper/arizona_state_university_wallpaper_008.jpg')
+  }
+  
